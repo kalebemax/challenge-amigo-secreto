@@ -38,7 +38,7 @@ function sortearAmigo() {
       "Adicione pelo menos dois nomes à lista para o sorteio ser realizado."
     );
   } else {
-    res.innerHTML = `${nomeSorteado}`;
+    res.innerHTML = `O amigo sorteado é: ${nomeSorteado}`;
     atualizarLista();
   }
   
